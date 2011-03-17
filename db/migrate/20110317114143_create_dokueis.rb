@@ -1,7 +1,10 @@
 class CreateDokueis < ActiveRecord::Migration
   def self.up
     create_table :dokueis do |t|
-      t.String :title
+      t.string :title
+      t.integer :size
+      t.string :content_type
+      t.string :filename
 
       t.timestamps
     end
