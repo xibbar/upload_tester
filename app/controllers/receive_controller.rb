@@ -1,2 +1,0 @@
-class ReceiveController < ApplicationController
-end
